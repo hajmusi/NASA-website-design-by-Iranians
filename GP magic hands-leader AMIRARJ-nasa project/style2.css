@@ -1,0 +1,423 @@
+body {
+  background-image: url(imgnasa/header-img.gif);
+  color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+
+.container {
+  background-color: none;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* Haeder */
+
+.header {
+  background-image: url(imgnasa/header-img.gif);
+}
+/* Search box */
+.search-box .link-top {
+  display: inline-block;
+}
+
+.search-box {
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  float: right;
+}
+.search-box input {
+  width: 65%;
+  height: 65%;
+  margin-top: 45px;
+  font-size: 15px;
+  background-color: rgb(73, 73, 73);
+  outline: none;
+  border: none;
+  color: white;
+  background-image: url(imgnasa/zarebin.svg);
+  background-repeat: no-repeat;
+  background-position: 160px 0;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.search-box input:focus {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  transition: all 0.3s;
+
+  color: aliceblue;
+}
+
+.search-box img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+/* Menu link top */
+.menu-link-top > ul {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: right;
+  margin-top: -2%;
+}
+.menu-link-top > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 35px 10px;
+  position: relative;
+  border-right: none;
+  text-align: left;
+  margin-left: -10px;
+}
+
+.menu-link-top > ul > li:hover {
+  background-color: #15418c;
+  margin-left: -18px;
+  cursor: pointer;
+}
+.menu-link-top > ul > li:last-of-type {
+  border: none;
+}
+ul.sub-menu1 {
+  position: absolute;
+  background-color: #15418c;
+  list-style-type: none;
+  width: 310px;
+  top: 93px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-top: 15px;
+  opacity: 0;
+  font-size: 18px;
+}
+ul.sub-menu2 {
+  position: absolute;
+  background-color: #15418c;
+  list-style-type: none;
+  width: 220px;
+  top: 93px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-top: 15px;
+  opacity: 0;
+  font-size: 18px;
+}
+ul.sub-menu4 {
+  position: absolute;
+  background-color: #15418c;
+  list-style-type: none;
+  width: 270px;
+  top: 93px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-top: 15px;
+  opacity: 0;
+  font-size: 18px;
+}
+ul.sub-menu5 {
+  position: absolute;
+  background-color: #15418c;
+  list-style-type: none;
+  width: 190px;
+  top: 93px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-top: 15px;
+  opacity: 0;
+  font-size: 18px;
+}
+ul.sub-menu6 {
+  position: absolute;
+  background-color: #15418c;
+  list-style-type: none;
+  width: 230px;
+  top: 93px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-top: 15px;
+  opacity: 0;
+  font-size: 18px;
+}
+ul.sub-menu7 {
+  position: absolute;
+  background-color: #15418c;
+  list-style-type: none;
+  width: 255px;
+  top: 93px;
+  padding-left: 10px;
+  margin-left: -10px;
+  padding-top: 15px;
+  opacity: 0;
+  font-size: 18px;
+}
+ul.sub-menu1 li {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+}
+ul.sub-menu2 li {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+}
+ul.sub-menu4 li {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+}
+ul.sub-menu5 li {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+}
+ul.sub-menu6 li {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+}
+ul.sub-menu7 li {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: -10px;
+}
+.menu-link-top li:hover .sub-menu1,
+.border-menu1 {
+  opacity: 1;
+  display: block;
+}
+.menu-link-top li:hover .sub-menu2 {
+  opacity: 1;
+  display: block;
+}
+.menu-link-top li:hover .sub-menu4 {
+  opacity: 1;
+  display: block;
+}
+.menu-link-top li:hover .sub-menu5 {
+  opacity: 1;
+  display: block;
+}
+.menu-link-top li:hover .sub-menu6 {
+  opacity: 1;
+  display: block;
+}
+.menu-link-top li:hover .sub-menu7 {
+  opacity: 1;
+  display: block;
+}
+
+ul.sub-menu1 li:hover {
+  background-color: #072f54;
+  cursor: pointer;
+}
+ul.sub-menu2 li:hover {
+  background-color: #072f54;
+  cursor: pointer;
+}
+ul.sub-menu4 li:hover {
+  background-color: #072f54;
+  cursor: pointer;
+}
+ul.sub-menu5 li:hover {
+  background-color: #072f54;
+  cursor: pointer;
+}
+ul.sub-menu6 li:hover {
+  background-color: #072f54;
+  cursor: pointer;
+}
+ul.sub-menu7 li:hover {
+  background-color: #072f54;
+  cursor: pointer;
+}
+.menu-link-top ul li ul {
+  display: none;
+}
+.menu-link-top span {
+  border-right: 1px solid gray;
+  padding-right: 15px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.menu-link-top .border-menu1:hover {
+  border-right: none;
+}
+.menu-link-top .border-menu2:hover {
+  border-right: none;
+}
+.menu-link-top .border-menu3:hover {
+  border-right: none;
+}
+.menu-link-top .border-menu4:hover {
+  border-right: none;
+}
+.menu-link-top .border-menu5:hover {
+  border-right: none;
+}
+.menu-link-top .border-menu6:hover {
+  border-right: none;
+}
+.menu-link-top .border-menu7:hover {
+  border-right: none;
+}
+/* Menu link bot */
+.menu-link-bot {
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 40px;
+}
+
+.menu-link-bot > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px 10px;
+
+  text-align: center;
+  background-color: #545555;
+  margin-left: -4.5px;
+  color: white;
+  font-size: 13px;
+}
+
+.menu-link-bot > ul > li:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+.menu-link-bot > ul > li:last-of-type {
+  border: none;
+}
+.menu-link-bot a {
+  border-right: 2px solid gray;
+  padding-right: 20px;
+}
+/* Logo nasa */
+.logo-nasa img {
+  width: 85px;
+  height: 90px;
+  margin-top: -280px;
+  margin-left: 10px;
+  max-width: 100%;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Main */
+
+.main-right {
+  background-color: white;
+  width: 1040px;
+  text-align: left;
+  margin-left: 350px;
+  margin-top: 0px;
+  border-top: 10px solid #558ff3;
+  display: inline-block;
+}
+/* Text-main */
+.main-right > a:first-of-type {
+  text-decoration: none;
+  color: white;
+  background-color: #558ff3;
+  padding: 15px 15px;
+  padding-right: 90px;
+  padding-left: 90px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.main-right a:hover {
+  text-decoration: underline;
+}
+
+.main-right p:first-of-type {
+  color: black;
+  padding: 20px 20px;
+  font-size: 14px;
+}
+.main-right > h1 {
+  color: black;
+  padding: 20px 20px;
+  display: inline-block;
+  margin-right: 380px;
+}
+.main-right > img {
+  display: inline-block;
+}
+.main-right p {
+  color: black;
+  padding: 20px 20px;
+}
+.main-right p a {
+  text-decoration: none;
+  color: #558ff3;
+}
+.main-right p a:hover {
+  text-decoration: underline;
+}
+.main-right img:hover {
+  cursor: pointer;
+}
+/* Read next-last p */
+
+.last-p-hover {
+  text-align: center;
+
+  background-color: #1d458b;
+  font-weight: 550;
+  display: block;
+}
+
+.last-p-hover p:last-of-type {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.last-p-hover p:last-of-type:hover {
+  background-color: #4884ec;
+}
+/* Main left */
+
+/* Footer */
+
+/* Logo nasa */
+.nasa-logo-footer {
+  display: inline-block;
+  margin-top: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.text-footer {
+  display: inline-block;
+  margin-bottom: 1px;
+}
+.text-footer p {
+  text-align: left;
+  color: white;
+}
+/* Links footer */
+.links-footer a {
+  text-decoration: none;
+  color: #5d7fb9;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+.links-footer {
+  text-align: right;
+  margin-bottom: 150px;
+}
+.links-footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* End */
